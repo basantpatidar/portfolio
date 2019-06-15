@@ -1,0 +1,27 @@
+.about {
+  text-align: center;
+  background-color: #2098d1;
+  padding: 60px;
+  color: white;
+}
+.h2h4 {
+  padding: 100px;
+}
+
+.mybtn {
+  margin: 40px;
+  color: white;
+  border-radius: 2px;
+}
+.mybtn:hover {
+  color: greenyellow;
+  outline-style: none;
+}
+
+.mybtn:focus {
+  box-shadow: none;
+}
+
+h2 {
+  padding: 20px;
+}
