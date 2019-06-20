@@ -1,0 +1,35 @@
+.footerArea {
+  background-color: #222c32;
+  color: aliceblue;
+}
+
+.rightCol a {
+  color: aliceblue;
+  text-decoration: none;
+  margin-left: 25%;
+  transition-duration: 0.8s;
+}
+.rightCol a:hover {
+  margin-left: 27%;
+}
+
+.footerIcons {
+  color: aliceblue;
+  font-size: 200%;
+  padding-top: 10px;
+}
+.getInTouch {
+  font-size: 250%;
+  text-align: center;
+  padding-top: 10px;
+}
+.getInTouch i {
+  transition-duration: 0.8s;
+}
+.getInTouch i:hover {
+  padding-left: 2%;
+}
+
+.footerArea p {
+  text-align: center;
+}
