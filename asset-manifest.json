@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Portfolio-Build/static/css/main.7142fe44.chunk.css",
+    "main.js": "/Portfolio-Build/static/js/main.0eff1c00.chunk.js",
+    "main.js.map": "/Portfolio-Build/static/js/main.0eff1c00.chunk.js.map",
+    "runtime~main.js": "/Portfolio-Build/static/js/runtime~main.2509f4f6.js",
+    "runtime~main.js.map": "/Portfolio-Build/static/js/runtime~main.2509f4f6.js.map",
+    "static/css/2.266e55a5.chunk.css": "/Portfolio-Build/static/css/2.266e55a5.chunk.css",
+    "static/js/2.72222e04.chunk.js": "/Portfolio-Build/static/js/2.72222e04.chunk.js",
+    "static/js/2.72222e04.chunk.js.map": "/Portfolio-Build/static/js/2.72222e04.chunk.js.map",
+    "index.html": "/Portfolio-Build/index.html",
+    "precache-manifest.4ff7775c5c16e3c15d837bfc7cf461da.js": "/Portfolio-Build/precache-manifest.4ff7775c5c16e3c15d837bfc7cf461da.js",
+    "service-worker.js": "/Portfolio-Build/service-worker.js",
+    "static/css/2.266e55a5.chunk.css.map": "/Portfolio-Build/static/css/2.266e55a5.chunk.css.map",
+    "static/css/main.7142fe44.chunk.css.map": "/Portfolio-Build/static/css/main.7142fe44.chunk.css.map",
+    "static/media/logo.png": "/Portfolio-Build/static/media/logo.d2ded310.png",
+    "static/media/msSqlProject.png": "/Portfolio-Build/static/media/msSqlProject.f94c6fa6.png",
+    "static/media/ngoPortalProject.PNG": "/Portfolio-Build/static/media/ngoPortalProject.f7e9212c.PNG",
+    "static/media/portfolioProject.PNG": "/Portfolio-Build/static/media/portfolioProject.991aedf6.PNG",
+    "static/media/sportsworksProject.PNG": "/Portfolio-Build/static/media/sportsworksProject.ad6cd945.PNG"
+  }
+}
