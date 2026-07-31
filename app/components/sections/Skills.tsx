@@ -5,6 +5,7 @@ import {
   Monitor,
   Activity,
   FlaskConical,
+  Bot,
   type LucideIcon,
 } from 'lucide-react';
 import { SectionHeader } from '@/app/components/ui/SectionHeader';
@@ -18,6 +19,7 @@ const iconMap: Record<string, LucideIcon> = {
   Monitor,
   Activity,
   FlaskConical,
+  Bot,
 };
 
 // Accent color per category — keeps clusters visually distinct
@@ -28,6 +30,7 @@ const colorMap: Record<string, { icon: string; badge: string; border: string }> 
   Frontend:               { icon: 'text-purple-400', badge: 'bg-purple-400/10 text-purple-300 border-purple-400/20', border: 'group-hover:border-purple-400/40' },
   'DevOps & Monitoring':  { icon: 'text-green-400',  badge: 'bg-green-400/10 text-green-300 border-green-400/20',  border: 'group-hover:border-green-400/40'  },
   'Testing & Methodology':{ icon: 'text-pink-400',   badge: 'bg-pink-400/10 text-pink-300 border-pink-400/20',    border: 'group-hover:border-pink-400/40'   },
+  'AI-Assisted Engineering': { icon: 'text-violet-400', badge: 'bg-violet-400/10 text-violet-300 border-violet-400/20', border: 'group-hover:border-violet-400/40' },
 };
 
 export function Skills() {
