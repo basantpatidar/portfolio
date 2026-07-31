@@ -17,7 +17,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Basant Patidar | Senior Software Engineer",
   description:
-    "Senior Full-Stack Developer with 8+ years delivering Java/Spring Boot microservices at enterprise scale — 100M+ daily queries at Walmart and millions of daily financial transactions at T. Rowe Price.",
+    "Senior Full-Stack Developer with 8+ years delivering Java/Spring Boot microservices at enterprise scale — 2.5M+ daily payment requests at Walmart Marketplace and millions of daily financial transactions at T. Rowe Price.",
   keywords: [
     "Basant Patidar",
     "Senior Software Engineer",

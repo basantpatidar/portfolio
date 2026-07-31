@@ -7,7 +7,7 @@ export interface Stat {
 
 export const stats: Stat[] = [
   { value: 8,    suffix: '+',   label: 'Years of Experience' },
-  { value: 100,  suffix: 'M+',  label: 'Daily Search Queries' },
+  { value: 2.5,  suffix: 'M+',  label: 'Daily Payment Requests', decimals: 1 },
   { value: 2500, suffix: '+',   label: 'Hours Saved Per Day' },
   { value: 300,  suffix: '+',   label: 'Mutual Funds Integrated' },
 ];

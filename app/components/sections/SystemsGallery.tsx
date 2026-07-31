@@ -7,9 +7,9 @@ import { SectionHeader } from '@/app/components/ui/SectionHeader';
 import { FadeIn } from '@/app/components/ui/FadeIn';
 import { cn } from '@/app/lib/utils';
 
-import { trpNodes,           trpEdges,           trpMeta           } from '@/app/data/diagrams/trp';
-import { walmartSearchNodes, walmartSearchEdges, walmartSearchMeta } from '@/app/data/diagrams/walmart-search';
-import { walmartHealthNodes, walmartHealthEdges, walmartHealthMeta } from '@/app/data/diagrams/walmart-health';
+import { trpNodes,             trpEdges,             trpMeta             } from '@/app/data/diagrams/trp';
+import { walmartPaymentsNodes, walmartPaymentsEdges, walmartPaymentsMeta } from '@/app/data/diagrams/walmart-payments';
+import { walmartHealthNodes,   walmartHealthEdges,   walmartHealthMeta   } from '@/app/data/diagrams/walmart-health';
 
 // Lazy-load ReactFlow — it's heavy and not needed until this section scrolls into view
 const FlowDiagram = dynamic(
@@ -27,18 +27,18 @@ function DiagramSkeleton() {
 
 const tabs = [
   {
+    id: 'walmart-payments',
+    label: 'Walmart Payments',
+    nodes: walmartPaymentsNodes,
+    edges: walmartPaymentsEdges,
+    meta: walmartPaymentsMeta,
+  },
+  {
     id: 'trp',
     label: 'T. Rowe Price',
     nodes: trpNodes,
     edges: trpEdges,
     meta: trpMeta,
-  },
-  {
-    id: 'walmart-search',
-    label: 'Walmart Search',
-    nodes: walmartSearchNodes,
-    edges: walmartSearchEdges,
-    meta: walmartSearchMeta,
   },
   {
     id: 'walmart-health',
@@ -52,7 +52,7 @@ const tabs = [
 type TabId = (typeof tabs)[number]['id'];
 
 export function SystemsGallery() {
-  const [active, setActive] = useState<TabId>('trp');
+  const [active, setActive] = useState<TabId>('walmart-payments');
 
   const current = tabs.find((t) => t.id === active)!;
 
@@ -70,8 +70,8 @@ export function SystemsGallery() {
         <FadeIn delay={100}>
           {/* Terminal-style tab switcher */}
           <div className="flex flex-wrap gap-1 mb-6 p-1 rounded-lg bg-slate-900 border border-slate-800 w-fit font-mono text-xs">
-            <span className="px-3 py-2 text-slate-600 select-none">~/systems</span>
-            <span className="px-1 py-2 text-slate-700 select-none">$</span>
+            <span className="pl-3 pr-1 py-2 text-slate-600 select-none">~/systems</span>
+            <span className="pl-0 pr-2 py-2 text-slate-700 select-none">$</span>
             {tabs.map((tab) => (
               <button
                 key={tab.id}

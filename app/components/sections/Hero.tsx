@@ -68,8 +68,8 @@ export function Hero() {
         <p className="text-slate-400 text-base md:text-lg max-w-2xl leading-relaxed mb-12">
           8+ years shipping enterprise-scale distributed systems — from mutual fund platforms processing
           {' '}<span className="text-slate-200 font-medium">millions of daily transactions</span> to
-          e-commerce search handling{' '}
-          <span className="text-slate-200 font-medium">100M+ queries a day</span>.
+          a marketplace payments platform handling{' '}
+          <span className="text-slate-200 font-medium">2.5M+ daily payment requests</span>.
         </p>
 
         {/* Stat counters */}

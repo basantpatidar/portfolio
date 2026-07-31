@@ -13,17 +13,17 @@ export const skillGroups: SkillGroup[] = [
   {
     category: 'Cloud & Infra',
     icon: 'Cloud',
-    skills: ['AWS (EC2, S3, SNS, SQS, EMR)', 'Azure', 'Kubernetes', 'Docker', 'Concord CI/CD'],
+    skills: ['AWS (EC2, S3, SNS, SQS, EMR)', 'Azure', 'GCP (Dataproc, Airflow)', 'Kubernetes', 'Docker', 'Concord CI/CD'],
   },
   {
     category: 'Data & Messaging',
     icon: 'Database',
-    skills: ['Apache Kafka', 'Cassandra', 'Couchbase', 'PostgreSQL', 'DynamoDB', 'Cosmos DB', 'MongoDB', 'IBM DB2', 'Oracle SQL', 'Azure SQL', 'Azure Blob'],
+    skills: ['Apache Kafka', 'Apache Spark', 'Cassandra', 'Redis', 'Hazelcast', 'Couchbase', 'PostgreSQL', 'DynamoDB', 'Cosmos DB', 'MongoDB', 'IBM DB2', 'Oracle SQL', 'Azure SQL', 'Azure Blob'],
   },
   {
     category: 'Frontend',
     icon: 'Monitor',
-    skills: ['TypeScript', 'React', 'Angular', 'RxJS', 'D3.js', 'HTML5', 'CSS'],
+    skills: ['TypeScript', 'React', 'Redux', 'Angular', 'RxJS', 'D3.js', 'HTML5', 'CSS'],
   },
   {
     category: 'DevOps & Monitoring',
@@ -33,6 +33,11 @@ export const skillGroups: SkillGroup[] = [
   {
     category: 'Testing & Methodology',
     icon: 'FlaskConical',
-    skills: ['JUnit 5', 'Mockito', 'TDD', 'Agile / Scrum', 'JIRA', 'Rally'],
+    skills: ['JUnit 5', 'Mockito', 'Testcontainers', 'WireMock', 'TDD', 'Agile / Scrum', 'JIRA', 'Rally'],
+  },
+  {
+    category: 'AI-Assisted Engineering',
+    icon: 'Bot',
+    skills: ['MCP Servers', 'Claude Agent SDK', 'Agentic Workflows', 'RAG / pgvector', 'Claude Skills & Plugins', 'AI-Driven Test Automation'],
   },
 ];

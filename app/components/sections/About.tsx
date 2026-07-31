@@ -4,20 +4,20 @@ import { FadeIn } from '@/app/components/ui/FadeIn';
 
 const domains = [
   {
+    label: 'Marketplace Payments',
+    company: 'Walmart',
+    description: 'Seller-payments platform processing 2.5M+ daily requests across commission, settlement, and reconciliation.',
+    color: 'text-yellow-400',
+    bg: 'bg-yellow-400/10',
+    border: 'border-yellow-400/20',
+  },
+  {
     label: 'Financial Services',
     company: 'T. Rowe Price',
     description: 'Mutual fund platforms processing millions of daily trades across 300+ funds.',
     color: 'text-blue-400',
     bg: 'bg-blue-400/10',
     border: 'border-blue-400/20',
-  },
-  {
-    label: 'E-Commerce Search',
-    company: 'Walmart',
-    description: 'Query understanding for 100M+ daily search requests via a DAG-driven ML pipeline.',
-    color: 'text-yellow-400',
-    bg: 'bg-yellow-400/10',
-    border: 'border-yellow-400/20',
   },
   {
     label: 'Healthcare',
@@ -67,7 +67,7 @@ export function About() {
               <p className="text-slate-300 text-lg leading-relaxed">
                 I'm a Senior Full-Stack Developer who specializes in building distributed systems
                 that handle real enterprise load — not toy scale, but{' '}
-                <span className="text-slate-100 font-medium">hundreds of millions of daily requests</span>{' '}
+                <span className="text-slate-100 font-medium">millions of daily requests</span>{' '}
                 and financial platforms where downtime is not an option.
               </p>
             </FadeIn>
@@ -75,12 +75,13 @@ export function About() {
             <FadeIn delay={200}>
               <p className="text-slate-400 leading-relaxed">
                 My career has taken me across three demanding domains. At{' '}
+                <span className="text-slate-200 font-medium">Walmart</span>, I currently build the
+                seller-payments platform behind Walmart Marketplace — commission, settlement, and
+                reconciliation across four countries — and previously led a healthcare migration
+                that saved thousands of hours of pharmacy labor nationwide. At{' '}
                 <span className="text-slate-200 font-medium">T. Rowe Price</span>, I built and
                 modernized the microservices backbone behind mutual fund transactions — millions of
-                trades a day, 300+ funds, strict financial compliance. At{' '}
-                <span className="text-slate-200 font-medium">Walmart</span>, I scaled e-commerce
-                search infrastructure that processes 100M+ daily queries, and separately led a
-                healthcare migration that saved thousands of hours of pharmacy labor nationwide.
+                trades a day, 300+ funds, strict financial compliance.
               </p>
             </FadeIn>
 
@@ -102,7 +103,7 @@ export function About() {
                     key={d.label}
                     className={`card-glass p-4 flex gap-4 items-start border ${d.border}`}
                   >
-                    <div className={`mt-0.5 px-2 py-0.5 rounded text-xs font-mono font-semibold ${d.bg} ${d.color} shrink-0`}>
+                    <div className={`mt-0.5 w-[168px] px-2 py-0.5 rounded text-xs font-mono font-semibold text-center whitespace-nowrap ${d.bg} ${d.color} shrink-0`}>
                       {d.label}
                     </div>
                     <div>
